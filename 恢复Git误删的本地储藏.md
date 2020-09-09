@@ -1,6 +1,6 @@
-## 找回git Pop stash/git Drop stash的本地存储
+## 找回git Pop stash/git Drop stash的本地储藏
 
-工作中git执行Pop stash/Drop stash后，都会删除本次的存储信息，针对误删git其实也做了恢复的操作(后悔药)。
+工作中git执行Pop stash/Drop stash后，都会删除本次的储藏信息，针对误删git其实也做了恢复的操作(后悔药)。
 
 1 执行
 
@@ -34,4 +34,4 @@ dangling commit 项包含我们之前执行Pop stash/Drop stash后删除的commi
 
     $ git stash apply <commitHash>
 
-恢复误删的存储　
+恢复误删的储藏
